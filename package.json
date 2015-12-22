@@ -4,6 +4,9 @@
   "description": "Babel helpers as external modules",
   "repository": "https://github.com/mntnoe/babel-helper-modules",
   "license": "MIT",
+  "scripts": {
+    "build-dist": "node scripts/build-dist.js"
+  },
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-helpers": "^6.3.13",
